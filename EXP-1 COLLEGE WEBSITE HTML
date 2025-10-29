@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datta Meghe College of Engineering</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    header img {
+      width: 70px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    nav {
+      background-color: #004080;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #003366;
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://dmce.ac.in/wp-content/uploads/2025/05/dmce.png" alt="DMCE Logo">
+    <h1>Datta Meghe College of Engineering</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Datta Meghe College of Engineering (DMCE) is one of the premier engineering institutions in Navi Mumbai, 
+      known for its excellent academic environment, modern infrastructure, and experienced faculty. 
+      The college is affiliated with the University of Mumbai.
+    </p>
+  </section>
+
+  <section id="departments">
+    <h2>Departments</h2>
+    <table>
+      <tr>
+        <th>Department</th>
+        <th>Head of Department</th>
+      </tr>
+      <tr>
+        <td>Computer Engineering</td>
+        <td>Prof. A. Sharma</td>
+      </tr>
+      <tr>
+        <td>Information Technology</td>
+        <td>Prof. M. Patel</td>
+      </tr>
+      <tr>
+        <td>Mechanical Engineering</td>
+        <td>Prof. R. Deshmukh</td>
+      </tr>
+      <tr>
+        <td>Electronics Engineering</td>
+        <td>Prof. S. Iyer</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@dmce.ac.in</p>
+    <p>Phone: +91 22 2754 2003</p>
+    <p>Address: Datta Meghe College of Engineering, Sector 3, Airoli, Navi Mumbai - 400708</p>
+
+    <h3>Campus Location:</h3>
+    <iframe 
+      src="https://www.google.com/maps?q=Datta+Meghe+College+of+Engineering,+Airoli,+Navi+Mumbai&output=embed">
+    </iframe>
+  </section>
+
+  <footer>
+    © 2025 Datta Meghe College of Engineering | All Rights Reserved
+  </footer>
+
+</body>
+</html>
