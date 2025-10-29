@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff3b0, #ffb4a2);
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d62828;
+      text-shadow: 2px 2px #ffe8d6;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .item {
+      background-color: white;
+      border-radius: 15px;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 100%;
+      height: 140px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .item h3 {
+      margin: 10px 0 5px;
+      color: #780000;
+    }
+
+    .price {
+      color: #15616d;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #ffb703;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 8px;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #fb8500;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍽️ Welcome to TasteBuds Restaurant</h1>
+
+  <div class="menu">
+    <div class="item">
+      <img src="https://plus.unsplash.com/premium_photo-1722945691819-e58990e7fb27?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1921" alt="Pizza">
+      <h3>Margherita Pizza</h3>
+      <p class="price">₹299</p>
+      <button>Order Now</button>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=765" alt="Burger">
+      <h3>Veggie Burger</h3>
+      <p class="price">₹199</p>
+      <button>Order Now</button>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1662197480393-2a82030b7b83?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=688" alt="Pasta">
+      <h3>Cheese Pasta</h3>
+      <p class="price">₹249</p>
+      <button>Order Now</button>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1597648152428-f883fbc9c873?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Ice Cream">
+      <h3>Chocolate Ice Cream</h3>
+      <p class="price">₹149</p>
+      <button>Order Now</button>
+    </div>
+  </div>
+</body>
+</html>
